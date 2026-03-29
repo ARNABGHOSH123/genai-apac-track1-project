@@ -8,7 +8,7 @@ steps:
         "build",
         "-t",
         "us-central1-docker.pkg.dev/genai-apac-test/cloud-run-source-deploy/vibe-weather-agent:latest",
-        "./backend",
+        ".",
       ]
   - id: push-backend
     name: "gcr.io/cloud-builders/docker"
